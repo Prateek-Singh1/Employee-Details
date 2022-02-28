@@ -1,0 +1,68 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(214, 125, 250),
+    rgb(235, 207, 248),
+    white
+  );
+}
+
+#button1 {
+  background-color: rgb(0, 204, 255);
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 50px;
+  width: 400px;
+  font-size: 17px;
+  color: white;
+}
+#button2 {
+  background-color: rgb(0, 204, 255);
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 50px;
+  width: 400px;
+  font-size: 17px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 10px;
+}
+
+.heading {
+  margin-top: 80px;
+}
+
+h1 {
+  text-shadow: 10px 10px 10px gray;
+}
+
+.box1 {
+  background-color: rgb(136, 231, 255);
+  border-radius: 40px;
+  height: 230px;
+  width: 400px;
+  padding-top: 15px;
+  border: 2px solid black;
+  margin-top: 80px;
+}
+.box2 {
+  background-color: rgb(224, 124, 255);
+  border-radius: 40px;
+  height: 230px;
+  width: 400px;
+  padding-top: 15px;
+  border: 2px solid black;
+  margin-top: 80px;
+}
+
+.dynamic-box {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 100px;
+}

@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(214, 125, 250),
+    rgb(235, 207, 248),
+    white
+  );
+
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+button {
+  border: none;
+  height: 30px;
+  width: 150px;
+  background-color: aqua;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.showDataStyle {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 8px 8px 30px gray;
+  gap: 10px;
+  margin-top: 10px;
+}
